@@ -5,7 +5,7 @@ import {
   Condition,
   Row,
   HeartIcon,
-  DispatchingTag,
+  DispatchTag,
   PriceCard,
   PriceRow,
   InstallmentsInfo,
@@ -28,7 +28,7 @@ const ProductAction: React.FC = () => {
         <HeartIcon />
       </Row>
 
-      <DispatchingTag>Enviando normalmente</DispatchingTag>
+      <DispatchTag>Enviando normalmente</DispatchTag>
 
       <PriceCard>
         <PriceRow>
